@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kindness Fund - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="pt-5 home-page-content">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="/">Kindness Fund</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-warning fw-bold" href="/donation">Donate Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section class="hero-section text-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <blockquote class="blockquote mb-4">
+              <p class="h4 text-muted fst-italic">
+                "The simplest acts of kindness are by far more powerful than a thousand heads bowing in prayer."
+              </p>
+              <footer class="blockquote-footer">Mahatma Gandhi</footer>
+            </blockquote>
+            <h1 class="display-3 fw-bold text-primary mb-3">Empowering Change Through Generosity</h1>
+            <p class="lead mb-5">
+              Join the Kindness Fund family today. Every dollar you donate creates a ripple effect of positive impact,
+              providing education, food, and healthcare to those in urgent need.
+            </p>
+            <a href="/donation" class="btn btn-primary btn-lg shadow-lg fw-bold">
+              Donate Now &amp; Start Making a Difference
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5 py-3">
+      <h2 class="text-center mb-4">Our Progress so Far</h2>
+      <div class="row text-center mb-4">
+        <div class="col-md-6 mb-3">
+          <div class="card p-3 shadow-sm border-0">
+            <h3 class="display-4 fw-bold text-success" id="total-amount">$0</h3>
+            <p class="lead text-muted">Total Donated Amount</p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="card p-3 shadow-sm border-0">
+            <h3 class="display-4 fw-bold text-primary" id="total-donors">0</h3>
+            <p class="lead text-muted">Total Donors</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-light p-4 rounded shadow-sm">
+        <div class="progress" role="progressbar" aria-label="Donation Goal" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="height: 30px;">
+          <div id="donation-progress" class="progress-bar bg-success fw-bold" style="width: 0%">
+            0% of $10,000
+          </div>
+        </div>
+        <p class="mt-3 text-center text-muted">Goal: $10,000 needed for our next campaign.</p>
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <h2 class="text-center mb-5">Why Donate With Us?</h2>
+      <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+        <div class="col">
+          <div class="card h-100 p-3 card-hover border-primary">
+            <div class="card-body">
+              <i class="bi bi-heart-pulse-fill display-4 text-primary mb-3"></i>
+              <h5 class="card-title fw-bold">Immediate Impact</h5>
+              <p class="card-text">
+                Your contribution is deployed swiftly to ensure help reaches those who need it most, right away.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-3 card-hover border-primary">
+            <div class="card-body">
+              <i class="bi bi-people-fill display-4 text-primary mb-3"></i>
+              <h5 class="card-title fw-bold">Community Focus</h5>
+              <p class="card-text">
+                We focus on long-term, sustainable projects in education, food security, and healthcare.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-3 card-hover border-primary">
+            <div class="card-body">
+              <i class="bi bi-shield-lock-fill display-4 text-primary mb-3"></i>
+              <h5 class="card-title fw-bold">Full Transparency</h5>
+              <p class="card-text">
+                We provide clear reports on how every dollar is spent, ensuring your trust is well-placed.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-3 card-hover border-primary">
+            <div class="card-body">
+              <i class="bi bi-cash-stack display-4 text-primary mb-3"></i>
+              <h5 class="card-title fw-bold">Maximized Value</h5>
+              <p class="card-text">
+                Our low overhead means more of your donation goes directly to the cause you care about.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h3 class="mb-4 text-center">Recent Acts of Kindness</h3>
+          <ul class="list-group shadow-sm" id="recent-donations-list">
+            <li class="list-group-item text-center text-muted">Loading recent donations...</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white pt-5 pb-3 mt-5">
+    <div class="container text-center">
+      <p>
+        &copy; 2025 Kindness Fund. All rights reserved.
+        | <a href="/contact" class="text-white">Support</a>
+        | <a href="/about" class="text-white">Mission</a>
+      </p>
+      <div class="social-links mt-3">
+        <a href="#" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white mx-2"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-white mx-2"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
