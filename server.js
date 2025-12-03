@@ -91,6 +91,14 @@ app.get('/stats', (req, res) => {
       amount: d.amount,
       type: d.type
     }));
+ // Debug endpoint to view all donations (for testing)
+app.get('/debug/donations', (req, res) => {
+  res.json({
+    count: donations.length,
+    totalAmount,
+    donations
+  });
+});
 
   res.json({
     totalDonors,
